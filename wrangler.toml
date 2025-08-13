@@ -1,0 +1,9 @@
+name = "webflow-env-test"
+compatibility_date = "2024-08-13"
+compatibility_flags = ["nodejs_compat"]
+
+[env.production]
+name = "webflow-env-test"
+
+[[env.production.routes]]
+pattern = "*"
